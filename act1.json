@@ -1,0 +1,861 @@
+{
+    "scenes": [
+
+        {
+            "id": "intro",
+            "lines": [
+                {
+                    "speaker": "Dipper",
+                    "text": "Oh! Hey there %username!",
+                    "face": "dipper_surprised_mild"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "My name is Dipper. I've been\nfinding some really weird stuff\naround Gravity Falls...",
+                    "face": "dipper_curious"
+                },
+                                {
+                    "speaker": "Dipper",
+                    "text": "Sorry i meant Geometry Falls!",
+                    "face": "dipper_embarrassed"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "Like, REALLY weird.\nNot normal weird.\nActually scary weird.",
+                    "face": "dipper_nervous"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "Do you want to join\nme and help figure\nthis all out?",
+                    "face": "dipper_hopeful",
+                    "buttons": ["YES", "NO"]
+                }
+            ]
+        },
+
+        {
+            "id": "intro_yes",
+            "lines": [
+                {
+                    "speaker": "Dipper",
+                    "text": "Yes! I knew I could\ncount on you!",
+                    "face": "dipper_excited"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "Okay, first things first.\nI'll bring you to\nthe Mystery Shack.",
+                    "face": "dipper_happy_1"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "Fair warning... my Grunkle Stan\nis going to try to sell\nyou things. Just... ignore him.",
+                    "face": "dipper_nervous"
+                }
+            ]
+        },
+
+        {
+            "id": "intro_no",
+            "lines": [
+                {
+                    "speaker": "Dipper",
+                    "text": "...",
+                    "face": "dipper_flat"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "Don't care.",
+                    "face": "dipper_annoyed"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "You're coming anyway.",
+                    "face": "dipper_determined"
+                }
+            ]
+        },
+
+        {
+            "id": "mystery_shack",
+            "lines": [
+                {
+                    "speaker": "Grunkle Stan",
+                    "text": "WELCOME! To the one,\nthe only... MYSTERY SHACK!",
+                    "face": "stan_salesman_big"
+                },
+                {
+                    "speaker": "Grunkle Stan",
+                    "text": "Home of the world's most\namazing mysteries!\nAlso souvenirs.",
+                    "face": "stan_greedy"
+                },
+                {
+                    "speaker": "Grunkle Stan",
+                    "text": "Can I interest you in\na genuine cursed totem?\nOnly $49.99. Batteries not included.",
+                    "face": "stan_salesman"
+                },
+                {
+                    "speaker": "Grunkle Stan",
+                    "text": "Or THIS! A bag of\nauthentic mystery rocks.\nDug up fresh last Tuesday.",
+                    "face": "stan_greedy"
+                },
+                {
+                    "speaker": "Grunkle Stan",
+                    "text": "A STEAL at only $89.\nNo refunds. No exchanges.\nNo crying.",
+                    "face": "stan_stern"
+                },
+                {
+                    "speaker": "Grunkle Stan",
+                    "text": "What about this slightly used\nmystery hat? Worn only once.\nBy a goat. But still!",
+                    "face": "stan_salesman"
+                },
+                {
+                    "speaker": "Grunkle Stan",
+                    "text": "Just $200! That's basically\nfree if you think about it\nhard enough.",
+                    "face": "stan_greedy"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "Grunkle Stan, please stop.",
+                    "face": "dipper_embarrassed"
+                },
+                {
+                    "speaker": "Grunkle Stan",
+                    "text": "Or how about this jar\nof mystery air? Very rare.\nOnly $15.",
+                    "face": "stan_salesman"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "That is literally just\nan empty jar.",
+                    "face": "dipper_annoyed"
+                },
+                {
+                    "speaker": "Grunkle Stan",
+                    "text": "Mystery air, kid.\nLearn to read.",
+                    "face": "stan_stern"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "We really need to get\nout of here. Like now.\nLike RIGHT now.",
+                    "face": "dipper_nervous"
+                },
+                {
+                    "speaker": "Mabel",
+                    "text": "DIPPER! DIPPER DIPPER DIPPER!",
+                    "face": "mabel_running"
+                },
+                {
+                    "speaker": "Mabel",
+                    "text": "I'm coming with you!\nI've got Waddles, my grappling\nhook AND my new glitter cannon!",
+                    "face": "mabel_excited"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "You don't need\na glitter cannon.",
+                    "face": "dipper_flat"
+                },
+                {
+                    "speaker": "Mabel",
+                    "text": "I ALWAYS need\na glitter cannon, Dipper.",
+                    "face": "mabel_silly"
+                },
+                {
+                    "speaker": "Soos",
+                    "text": "Dudes.",
+                    "face": "soos_cool"
+                },
+                {
+                    "speaker": "Soos",
+                    "text": "I heard there was\nan adventure happening?",
+                    "face": "soos_happy"
+                },
+                {
+                    "speaker": "Soos",
+                    "text": "Yeah. I'm coming too.\nThat's just how it is.",
+                    "face": "soos_thumbsup"
+                },
+                {
+                    "speaker": "Grunkle Stan",
+                    "text": "Nobody bought anything!\nThis is a DISASTER!",
+                    "face": "stan_angry"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "Let's go. Quickly.\nBefore he finds\nmore jars to sell.",
+                    "face": "dipper_determined"
+                }
+            ]
+        },
+
+        {
+            "id": "main_menu_hint",
+            "lines": [
+                {
+                    "speaker": "Dipper",
+                    "text": "Okay so... I've been\nreading Journal 3 again.",
+                    "face": "dipper_thinking"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "There's a page that mentions\nsomething hidden nearby.\nSomething in a garage.",
+                    "face": "dipper_curious"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "The author underlined it\nthree times and wrote\n'DO NOT OPEN' next to it.",
+                    "face": "dipper_nervous"
+                },
+                {
+                    "speaker": "Mabel",
+                    "text": "So obviously we're\ngoing to open it!",
+                    "face": "mabel_excited"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "...Yes. Obviously.",
+                    "face": "dipper_flat"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "Check out THE GARAGE\nbutton. Let's go see\nwhat's in there.",
+                    "face": "dipper_determined"
+                }
+            ]
+        },
+
+        {
+            "id": "garage_vault",
+            "lines": [
+                {
+                    "speaker": "Dipper",
+                    "text": "Okay... this is definitely\nthe place the Journal\nwas talking about.",
+                    "face": "dipper_nervous"
+                },
+                {
+                    "speaker": "Mabel",
+                    "text": "It smells like old cheese\nand secrets in here.",
+                    "face": "mabel_disgusted"
+                },
+                {
+                    "speaker": "Soos",
+                    "text": "I once found a sandwich\nin a garage. Best day\nof my life, dude.",
+                    "face": "soos_dreamy"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "Soos... focus.",
+                    "face": "dipper_annoyed"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "There's the vault door.\nHmmm... let's see\nwhat's in here...",
+                    "face": "dipper_thinking"
+                },
+                {
+                    "speaker": "Mabel",
+                    "text": "Ooh! Ooh! Maybe it's\na treasure! Or a puppy!\nOR a treasure puppy!!",
+                    "face": "mabel_hopeful"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "It's definitely not\na treasure puppy, Mabel.",
+                    "face": "dipper_flat"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "...Right?",
+                    "face": "dipper_nervous"
+                }
+            ]
+        },
+
+        {
+            "id": "monster_appears",
+            "lines": [
+                {
+                    "speaker": "Monster",
+                    "text": "HAHAHAHAHAHA!",
+                    "face": "monster_laugh_big"
+                },
+                {
+                    "speaker": "Mabel",
+                    "text": "AAAAAAH!",
+                    "face": "mabel_screaming"
+                },
+                {
+                    "speaker": "Soos",
+                    "text": "Whoa dude.",
+                    "face": "soos_shocked"
+                },
+                {
+                    "speaker": "Monster",
+                    "text": "Foolish little humans!\nYou dare enter MY vault?!",
+                    "face": "monster_angry"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "W-we just wanted\nto look around!",
+                    "face": "dipper_scared"
+                },
+                {
+                    "speaker": "Monster",
+                    "text": "You must complete my challenge\nbefore you have ANY chance\nof winning against me!",
+                    "face": "monster_smug"
+                },
+                {
+                    "speaker": "Monster",
+                    "text": "Complete the level.\nThen come back.\nIF you survive.",
+                    "face": "monster_laugh"
+                },
+                {
+                    "speaker": "Mabel",
+                    "text": "Did he say 'if'?",
+                    "face": "mabel_worried"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "He said 'if'.",
+                    "face": "dipper_scared"
+                },
+                {
+                    "speaker": "Soos",
+                    "text": "We're gonna be fine dudes.\nProbably.",
+                    "face": "soos_nervous"
+                }
+            ]
+        },
+
+        {
+            "id": "monster_post_level",
+            "lines": [
+                {
+                    "speaker": "Dipper",
+                    "text": "We did it! We beat\nthe challenge!",
+                    "face": "dipper_excited"
+                },
+                {
+                    "speaker": "Mabel",
+                    "text": "YEAHHH! Mabel style!",
+                    "face": "mabel_victory"
+                },
+                {
+                    "speaker": "Soos",
+                    "text": "That was pretty gnarly, dudes.",
+                    "face": "soos_impressed"
+                },
+                {
+                    "speaker": "Monster",
+                    "text": "...",
+                    "face": "monster_shocked"
+                },
+                {
+                    "speaker": "Monster",
+                    "text": "You... actually beat it.",
+                    "face": "monster_disbelief"
+                },
+                {
+                    "speaker": "Monster",
+                    "text": "HOW did you beat it?!\nNOBODY beats it!",
+                    "face": "monster_furious"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "We're pretty good.",
+                    "face": "dipper_smug"
+                },
+                {
+                    "speaker": "Monster",
+                    "text": "I WON'T let you win!\nYou still have to\nget past ME!",
+                    "face": "monster_angry"
+                },
+                {
+                    "speaker": "Mabel",
+                    "text": "Dipper... he looks\nreally mad.",
+                    "face": "mabel_nervous"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "Yeah. He does.\nGet ready everyone.",
+                    "face": "dipper_determined"
+                }
+            ]
+        },
+
+        {
+            "id": "boss_fight_start",
+            "lines": [
+                {
+                    "speaker": "Dipper",
+                    "text": "Okay okay okay.\nDon't panic. I've got\nthe Journal right here.",
+                    "face": "dipper_nervous"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "There's a page about\nthis exact type of monster!\nWe're actually kind of lucky!",
+                    "face": "dipper_surprised_happy"
+                },
+                {
+                    "speaker": "Mabel",
+                    "text": "LUCKY?! He's trying\nto DESTROY us Dipper!",
+                    "face": "mabel_panicking"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "Lucky because we know\nwhat to use against him!\nA bottle of water!",
+                    "face": "dipper_excited"
+                },
+                {
+                    "speaker": "Soos",
+                    "text": "Dude I have one\nin my backpack!\nI always carry snacks.",
+                    "face": "soos_happy"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "That's... actually perfect.\nThrow the water bottle!\nPress E!",
+                    "face": "dipper_determined"
+                },
+                {
+                    "speaker": "ITEM",
+                    "text": "You got a Water Bottle!\nPress E to throw it!",
+                    "face": "item_waterbottle"
+                }
+            ]
+        },
+
+        {
+            "id": "water_warning",
+            "lines": [
+                {
+                    "speaker": "Dipper",
+                    "text": "WAIT WAIT WAIT!",
+                    "face": "dipper_panicking"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "I just turned the page\nand it says... oh no.",
+                    "face": "dipper_reading_scared"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "'Only use water as\na LAST resort because\nit makes him very mad.'",
+                    "face": "dipper_horrified"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "Who WRITES sentences like that?!\nWhy is it on the SECOND page?!\nWhy not the FIRST page?!",
+                    "face": "dipper_furious"
+                },
+                {
+                    "speaker": "Mabel",
+                    "text": "Dipper... I think\nit's already thrown...",
+                    "face": "mabel_wincing"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "...",
+                    "face": "dipper_realizing"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "Oh no.",
+                    "face": "dipper_scared"
+                },
+                {
+                    "speaker": "Monster",
+                    "text": "HAHAHAHAHAHA!",
+                    "face": "monster_laugh_big"
+                },
+                {
+                    "speaker": "Monster",
+                    "text": "WATER?! YOU USED WATER?!\nYOU ABSOLUTE FOOLS!",
+                    "face": "monster_furious"
+                },
+                {
+                    "speaker": "Monster",
+                    "text": "Now I'm TWICE as strong!\nYou've made the biggest\nmistake of your LIVES!",
+                    "face": "monster_powered_up"
+                },
+                {
+                    "speaker": "Mabel",
+                    "text": "Great job Dipper.",
+                    "face": "mabel_done_with_this"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "It was YOUR idea\nto open the vault!",
+                    "face": "dipper_frustrated"
+                },
+                {
+                    "speaker": "Mabel",
+                    "text": "I thought it was\na treasure puppy!!",
+                    "face": "mabel_upset"
+                }
+            ]
+        },
+
+        {
+            "id": "soos_saves",
+            "lines": [
+                {
+                    "speaker": "Soos",
+                    "text": "Dudes. DUDES.",
+                    "face": "soos_serious"
+                },
+                {
+                    "speaker": "Soos",
+                    "text": "I got this.",
+                    "face": "soos_confident"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "Soos what are\nyou doing?!",
+                    "face": "dipper_confused"
+                },
+                {
+                    "speaker": "Soos",
+                    "text": "I always carry a\nscrewdriver. You know.\nJust in case.",
+                    "face": "soos_cool"
+                },
+                {
+                    "speaker": "Mabel",
+                    "text": "In case of MONSTER\nfights?!",
+                    "face": "mabel_surprised"
+                },
+                {
+                    "speaker": "Soos",
+                    "text": "In case of anything, dude.\nMr. Pines taught me that.\nAlways be prepared.",
+                    "face": "soos_wise"
+                },
+                {
+                    "speaker": "Soos",
+                    "text": "Yo, use this bad boy\nto fight him!\nPress E to throw it!",
+                    "face": "soos_thumbsup"
+                },
+                {
+                    "speaker": "ITEM",
+                    "text": "You got a Screwdriver!\nPress E to throw it!",
+                    "face": "item_screwdriver"
+                },
+                {
+                    "speaker": "Monster",
+                    "text": "Ha! A SCREWDRIVER?!\nWhat are you going\nto do with THAT?!",
+                    "face": "monster_mocking"
+                },
+                {
+                    "speaker": "Soos",
+                    "text": "Throw it at you, dude.",
+                    "face": "soos_flat"
+                }
+            ]
+        },
+
+        {
+            "id": "monster_defeated",
+            "lines": [
+                {
+                    "speaker": "Monster",
+                    "text": "Noooo... impossible...\ndefeated by a... screwdriver...",
+                    "face": "monster_defeated"
+                },
+                {
+                    "speaker": "Mabel",
+                    "text": "WE WON! WE ACTUALLY WON!",
+                    "face": "mabel_victory"
+                },
+                {
+                    "speaker": "Soos",
+                    "text": "That's what I'm\ntalking about, dudes!",
+                    "face": "soos_celebrating"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "I can't believe that\nactually worked...",
+                    "face": "dipper_relieved"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "Wait. There's something\non the ground. A note.",
+                    "face": "dipper_curious"
+                },
+                {
+                    "speaker": "NOTE",
+                    "text": "Impressive. You defeated\nmy monster. I did not\nexpect that.",
+                    "face": "note_paper"
+                },
+                {
+                    "speaker": "NOTE",
+                    "text": "Come to the basement\nto find me and collect\nyour reward...",
+                    "face": "note_paper_torn"
+                },
+                {
+                    "speaker": "Mabel",
+                    "text": "Ooh! A reward!\nMaybe it IS\na treasure puppy!",
+                    "face": "mabel_hopeful"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "It's not going to\nbe a treasure puppy.",
+                    "face": "dipper_flat"
+                },
+                {
+                    "speaker": "Soos",
+                    "text": "Could be a sandwich though.",
+                    "face": "soos_dreamy"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "Let's go find this\n'monster guider' and see\nwhat's in that basement.",
+                    "face": "dipper_determined"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "And whatever you do...\ndon't touch anything.",
+                    "face": "dipper_nervous"
+                },
+                {
+                    "speaker": "Mabel",
+                    "text": "No promises!",
+                    "face": "mabel_silly"
+                }
+            ]
+        },
+        {
+    "id": "basement_gnomes",
+    "lines": [
+        {
+            "speaker": "Dipper",
+            "text": "Okay, this is the basement.\nEveryone stay close...",
+            "face": "dipper_determined"
+        },
+        {
+            "speaker": "Jeff",
+            "text": "HALT! Who goes th— Oh!",
+            "face": "jeff_surprised"
+        },
+        {
+            "speaker": "Jeff",
+            "text": "Mabel! My queen! You've\nreturned to us!",
+            "face": "jeff_smug"
+        },
+        {
+            "speaker": "Mabel",
+            "text": "Ugh, Jeff? Is this\nyour basement?!",
+            "face": "mabel_disgusted"
+        },
+        {
+            "speaker": "Jeff",
+            "text": "We put that monster there\nto find a brave new queen.\nAnd you defeated it!",
+            "face": "jeff_normal"
+        },
+        {
+            "speaker": "Jeff",
+            "text": "The offer is still\non the table, Mabel.\nWe have a leaf-throne!",
+            "face": "jeff_smug"
+        },
+        {
+            "speaker": "Mabel",
+            "text": "Hard pass, Jeff.\nI'm still washing the\ngnome-burp out of my hair.",
+            "face": "mabel_done_with_this"
+        },
+        {
+            "speaker": "Dipper",
+            "text": "Wait, did you gnomes\ncreate that challenge level?",
+            "face": "dipper_confused"
+        },
+        {
+            "speaker": "Jeff",
+            "text": "Oh, heavens no. We're gnomes,\nnot creators.\nWe stole it from Gideon.",
+            "face": "jeff_normal"
+        },
+        {
+            "speaker": "Dipper",
+            "text": "Gideon Gleeful?! I knew\nthat level felt... evil.\nAnd poorly balanced.",
+            "face": "dipper_annoyed"
+        },
+        {
+            "speaker": "Jeff",
+            "text": "I heard you can beat him by completing all his levels,\nbut you can't just search for the levels...",
+            "face": "jeff_normal"
+        },
+        {
+            "speaker": "Jeff",
+            "text": "But we stole some of them!\nI can give them to you.",
+            "face": "jeff_normal"
+        },
+        {
+            "speaker": "Dipper",
+            "text": "The Journal says if we\nbeat all his levels, we\ncan finally stop him.",
+            "face": "dipper_determined"
+        },
+        {
+            "speaker": "Soos",
+            "text": "I'm in, dawg. Gideon's\nhair is too big to be trusted.",
+            "face": "soos_serious"
+        },
+        {
+            "speaker": "Mabel",
+            "text": "Let's go take him down!",
+            "face": "mabel_excited"
+        },
+        {
+            "speaker": "Jeff",
+            "text": "Before you go, you need\ntraining. Fight our\nstrongest warrior!",
+            "face": "jeff_normal"
+        },
+        {
+            "speaker": "Schmebulock",
+            "text": "SCHMEBULOCK!!",
+            "face": "schmebulock"
+        },
+        {
+            "speaker": "Jeff",
+            "text": "Okay, thats maybe not that good of an idea...",
+            "face": "jeff_smug"
+        },
+        {
+            "speaker": "Jeff",
+            "text": "Here is the level\nI hope you can beat it",
+            "face": "jeff_normal"
+        }
+    ]
+},
+        {
+    "id": "fight_prep_basement",
+    "lines": [
+        {
+            "speaker": "Dipper",
+            "text": "Yes! Good job %username! you beat the level!",
+            "face": "dipper_happy_1"
+        },
+        {
+            "speaker": "Jeff",
+            "text": "Woah! That was faster than i thought!",
+            "face": "jeff_surprised"
+        },
+        {
+            "speaker": "Jeff",
+            "text": "Maybe i should get harder levels...",
+            "face": "jeff_smug"
+        },
+        {
+            "speaker": "Soos",
+            "text": "You did it!",
+            "face": "soos_celebrating"
+        },
+        {
+            "speaker": "Soos",
+            "text": "But i didn't feel very safe with that spike-ball...",
+            "face": "soos_nervous"
+        },
+        {
+            "speaker": "Jeff",
+            "text": "Yeah, Gideon doen't use the cutest objects in his levels. I learned that in expierience!",
+            "face": "jeff_normal"
+        },
+        {
+            "speaker": "Mabel",
+            "text": "Lets go back to the shack! We have to fight Gideon.",
+            "face": "mabel_serious"
+        },
+        {
+            "speaker": "Jeff",
+            "text": "Wait! I also have some things to say to Gideon!",
+            "face": "jeff_smug"
+        },
+        {
+            "speaker": "Jeff",
+            "text": "GNOMES OF THE FOREST, ASEMBLE!!!!!!!",
+            "face": "jeff_screaming"
+        },
+        {
+            "speaker": "Dipper",
+            "text": "Yes! This is going to work!",
+            "face": "dipper_hopeful"
+        }
+    ]
+}
+,
+        {
+    "id": "fight_prep_shack",
+    "lines": [
+        {
+            "speaker": "Dipper",
+            "text": "Grunkle Stan!",
+            "face": "dipper_hopeful"
+        },
+        {
+            "speaker": "Grunkle Stan",
+            "text": "What is it? I was just making a new scam...",
+            "face": "stan_stern"
+        },
+        {
+            "speaker": "Grunkle Stan",
+            "text": "Wait you brougt him again? He didn't buy anything!",
+            "face": "stan_angry"
+        },
+        {
+            "speaker": "Grunkle Stan",
+            "text": "But you did brougt a new one!",
+            "face": "stan_stern"
+        },
+        {
+            "speaker": "Grunkle Stan",
+            "text": "Welcome to a world of mystery! Here! buy these mystery rocks! Only 50 dollars per piece!",
+            "face": "stan_salesman"
+        },
+        {
+            "speaker": "Jeff",
+            "text": "Ooooh! Mystery rocks!",
+            "face": "jeff_surprised"
+        },
+        {
+            "speaker": "Mabel",
+            "text": "Grunkle Stan, we need you to fight with Gideon.",
+            "face": "mabel_serious"
+        },
+        {
+            "speaker": "Grunkle Stan",
+            "text": "Is that brat out of jail? He ruined the mystery shack!",
+            "face": "stan_angry"
+        },
+        {
+            "speaker": "Grunkle Stan",
+            "text": "Lets roll!",
+            "face": "stan_angry"
+        },
+        {
+            "speaker": "Dipper",
+            "text": "WAIT!",
+            "face": "dipper_realizing"
+        },
+        {
+            "speaker": "Soos",
+            "text": "What is it dude?",
+            "face": "soos_nervous"
+        },
+        {
+            "speaker": "Dipper",
+            "text": "We dn't know where gideon is at! he could be anywhere!",
+            "face": "dipper_scared"
+        },
+        
+        {
+            "speaker": "Soos",
+            "text": "A wise man once told me 'The world is big, but Geomerty falls isn't'",
+            "face": "soos_wise"
+        },
+        
+        {
+            "speaker": "Soos",
+            "text": "He can't be far! Gnome-guy! Where are you getting the levels?",
+            "face": "soos_confident"
+        },
+        {
+            "speaker": "Jeff",
+            "text": "From his account, GideonGleeful",
+            "face": "jeff_normal"
+        }
+    ]
+}
+
+    ]
+}
