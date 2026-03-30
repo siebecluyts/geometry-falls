@@ -96,7 +96,7 @@
 # TOTAL: ~56 face images
 #
 # HOW TO ADD A NEW FACE ANYTIME:
-# 1. Cut the image from the show (remove.bg removes background)
+# 1. Cut the image from the show (remove.bg removes background) or make your own
 # 2. Crop to roughly square (~80x80px)
 # 3. Save as PNG with the exact name from this list
 # 4. Drop it in resources/faces/
