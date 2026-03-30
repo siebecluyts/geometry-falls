@@ -860,6 +860,61 @@
             "face": "mabel_screaming"
         }
     ]
+},
+        {
+    "id": "Account_enter_gideon",
+    "lines": [
+        {
+            "speaker": "Dipper",
+            "text": "Ah! we are here!",
+            "face": "dipper_happy_1"
+        },
+        {
+            "speaker": "Dipper",
+            "text": "I tought it would be a bit harder to get here...",
+            "face": "dipper_confused"
+        },
+        {
+            "speaker": "Mabel",
+            "text": "Hey, it's not like anything is going to happen!",
+            "face": "mabel_hopeful"
+        },
+        {
+            "speaker": "Mabel",
+            "text": "Because we have a GLITTER CANON!",
+            "face": "mabel_silly"
+        },
+        {
+            "speaker": "Dipper",
+            "text": "Mabel, this is serious",
+            "face": "dipper_flat"
+        },
+        {
+            "speaker": "Jeff",
+            "text": "Yeah! Gideon should be stoppen",
+            "face": "jeff_screaming"
+        },
+        {
+            "speaker": "Soos",
+            "text": "Watch out for traps!",
+            "face": "soos_wise"
+        },
+        {
+            "speaker": "Grunkle Stan",
+            "text": "You know, my mystery rocks would be perfect to use now!",
+            "face": "stan_angry"
+        },
+        {
+            "speaker": "Dipper",
+            "text": "FOCUS!",
+            "face": "dipper_annoyed"
+        },
+        {
+            "speaker": "Dipper",
+            "text": "Lets go to the levels! The journal can maybe help!",
+            "face": "dipper_thinking"
+        }
+    ]
 }
 
     ]
