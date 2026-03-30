@@ -29,7 +29,25 @@ static CCNode* makeFace(const std::string& faceName, const std::string& speaker)
     player->setScale(0.8f);
     return player;
 }
-
+// ───────────────────────────────────────────────────────────
+//  TEXT HELPER
+//  Replaces %username with the player's actual GD name
+// ───────────────────────────────────────────────────────────
+static std::string fillText(const std::string& text) {
+    std::string username = GameManager::get()->m_playerName;
+    std::string result = text;
+    
+    // Find %username and replace it with the real name
+    std::string placeholder = "%username";
+    size_t pos = result.find(placeholder);
+    
+    while (pos != std::string::npos) {
+        result.replace(pos, placeholder.length(), username);
+        pos = result.find(placeholder, pos + username.length());
+    }
+    
+    return result;
+}
 // ───────────────────────────────────────────────────────────
 //  DIALOGUE POPUP (With Visual Effects)
 // ───────────────────────────────────────────────────────────
@@ -91,7 +109,7 @@ public:
         this->addChild(name);
 
         // 5. Typewriter Text Logic
-        m_fullTargetText = line.text;
+        m_fullTargetText = fillText(line.text);
         m_charIndex = 0;
         m_textLabel = CCLabelBMFont::create("", "chatFont.fnt");
         m_textLabel->setScale(0.5f);

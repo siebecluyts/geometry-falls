@@ -834,7 +834,7 @@
         },
         {
             "speaker": "Dipper",
-            "text": "We dn't know where gideon is at! he could be anywhere!",
+            "text": "We don't know where gideon is at! he could be anywhere!",
             "face": "dipper_scared"
         },
         
@@ -853,6 +853,11 @@
             "speaker": "Jeff",
             "text": "From his account, GideonGleeful",
             "face": "jeff_normal"
+        },
+        {
+            "speaker": "Mabel",
+            "text": "Hey! %username! go to that account!",
+            "face": "mabel_screaming"
         }
     ]
 }
