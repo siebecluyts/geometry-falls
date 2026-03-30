@@ -7,9 +7,7 @@
 
 using namespace geode::prelude;
 
-// ───────────────────────────────────────────────────────────
 //  FACE SPRITE HELPER
-// ───────────────────────────────────────────────────────────
 static CCNode* makeFace(const std::string& faceName, const std::string& speaker) {
     std::string filename = faceName + ".png";
     auto* sprite = CCSprite::create(filename.c_str());
@@ -29,10 +27,9 @@ static CCNode* makeFace(const std::string& faceName, const std::string& speaker)
     player->setScale(0.8f);
     return player;
 }
-// ───────────────────────────────────────────────────────────
 //  TEXT HELPER
 //  Replaces %username with the player's actual GD name
-// ───────────────────────────────────────────────────────────
+ 
 static std::string fillText(const std::string& text) {
     std::string username = GameManager::get()->m_playerName;
     std::string result = text;
@@ -48,9 +45,9 @@ static std::string fillText(const std::string& text) {
     
     return result;
 }
-// ───────────────────────────────────────────────────────────
+ 
 //  DIALOGUE POPUP (With Visual Effects)
-// ───────────────────────────────────────────────────────────
+ 
 class DialoguePopup : public CCLayer {
 public:
     std::vector<DialogueLine> m_lines;
