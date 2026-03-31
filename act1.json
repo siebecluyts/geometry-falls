@@ -14,9 +14,9 @@
                     "text": "My name is Dipper. I've been\nfinding some really weird stuff\naround Gravity Falls...",
                     "face": "dipper_curious"
                 },
-                                {
+                {
                     "speaker": "Dipper",
-                    "text": "Sorry i meant Geometry Falls!",
+                    "text": "Sorry, I meant Geometry Falls!",
                     "face": "dipper_embarrassed"
                 },
                 {
@@ -38,7 +38,7 @@
             "lines": [
                 {
                     "speaker": "Dipper",
-                    "text": "Yes! I knew I could\ncount on you!",
+                    "text": "Yes! I knew I could\ncount on you %username!",
                     "face": "dipper_excited"
                 },
                 {
@@ -618,304 +618,310 @@
                 }
             ]
         },
+
         {
-    "id": "basement_gnomes",
-    "lines": [
-        {
-            "speaker": "Dipper",
-            "text": "Okay, this is the basement.\nEveryone stay close...",
-            "face": "dipper_determined"
+            "id": "basement_gnomes",
+            "lines": [
+                {
+                    "speaker": "Dipper",
+                    "text": "Okay, this is the basement.\nEveryone stay close...",
+                    "face": "dipper_determined"
+                },
+                {
+                    "speaker": "Jeff",
+                    "text": "HALT! Who goes th— Oh!",
+                    "face": "jeff_surprised"
+                },
+                {
+                    "speaker": "Jeff",
+                    "text": "Mabel! My queen! You've\nreturned to us!",
+                    "face": "jeff_smug"
+                },
+                {
+                    "speaker": "Mabel",
+                    "text": "Ugh, Jeff? Is this\nyour basement?!",
+                    "face": "mabel_disgusted"
+                },
+                {
+                    "speaker": "Jeff",
+                    "text": "We put that monster there\nto find a brave new queen.\nAnd you defeated it!",
+                    "face": "jeff_normal"
+                },
+                {
+                    "speaker": "Jeff",
+                    "text": "The offer is still\non the table, Mabel.\nWe have a leaf-throne!",
+                    "face": "jeff_smug"
+                },
+                {
+                    "speaker": "Mabel",
+                    "text": "Hard pass, Jeff.\nI'm still washing the\ngnome-burp out of my hair.",
+                    "face": "mabel_done_with_this"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "Wait, did you gnomes\ncreate that challenge level?",
+                    "face": "dipper_confused"
+                },
+                {
+                    "speaker": "Jeff",
+                    "text": "Oh, heavens no. We're gnomes,\nnot creators.\nWe stole it from Gideon.",
+                    "face": "jeff_normal"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "Gideon Gleeful?! I knew\nthat level felt... evil.\nAnd poorly balanced.",
+                    "face": "dipper_annoyed"
+                },
+                {
+                    "speaker": "Jeff",
+                    "text": "You can beat him by\ncompleting all his levels,\nbut you can't just search them...",
+                    "face": "jeff_normal"
+                },
+                {
+                    "speaker": "Jeff",
+                    "text": "But we stole some!\nI can give them to you.",
+                    "face": "jeff_smug"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "The Journal says if we\nbeat all his levels, we\ncan finally stop him.",
+                    "face": "dipper_determined"
+                },
+                {
+                    "speaker": "Soos",
+                    "text": "I'm in, dawg. Gideon's\nhair is too big\nto be trusted.",
+                    "face": "soos_serious"
+                },
+                {
+                    "speaker": "Mabel",
+                    "text": "Let's go take him down!",
+                    "face": "mabel_excited"
+                },
+                {
+                    "speaker": "Jeff",
+                    "text": "Before you go, you need\ntraining. Fight our\nstrongest warrior!",
+                    "face": "jeff_normal"
+                },
+                {
+                    "speaker": "Schmebulock",
+                    "text": "SCHMEBULOCK!!",
+                    "face": "schmebulock"
+                },
+                {
+                    "speaker": "Jeff",
+                    "text": "Okay... that's maybe\nnot the best idea.",
+                    "face": "jeff_smug"
+                },
+                {
+                    "speaker": "Jeff",
+                    "text": "Here is the level.\nI hope you can beat it!",
+                    "face": "jeff_normal"
+                }
+            ]
         },
+
         {
-            "speaker": "Jeff",
-            "text": "HALT! Who goes th— Oh!",
-            "face": "jeff_surprised"
+            "id": "fight_prep_basement",
+            "lines": [
+                {
+                    "speaker": "Dipper",
+                    "text": "Yes! Good job %username!\nYou beat the level!",
+                    "face": "dipper_happy_1"
+                },
+                {
+                    "speaker": "Jeff",
+                    "text": "Woah! That was faster\nthan I thought!",
+                    "face": "jeff_surprised"
+                },
+                {
+                    "speaker": "Jeff",
+                    "text": "Maybe I should get\nharder levels...",
+                    "face": "jeff_smug"
+                },
+                {
+                    "speaker": "Soos",
+                    "text": "You did it!",
+                    "face": "soos_celebrating"
+                },
+                {
+                    "speaker": "Soos",
+                    "text": "But I didn't feel very\nsafe with that spike-ball...",
+                    "face": "soos_nervous"
+                },
+                {
+                    "speaker": "Jeff",
+                    "text": "Yeah, Gideon doesn't use\nthe cutest objects in his\nlevels. I learned that firsthand.",
+                    "face": "jeff_normal"
+                },
+                {
+                    "speaker": "Mabel",
+                    "text": "Let's go back to the shack!\nWe have to fight Gideon.",
+                    "face": "mabel_serious"
+                },
+                {
+                    "speaker": "Jeff",
+                    "text": "Wait! I also have some\nthings to say to Gideon!",
+                    "face": "jeff_smug"
+                },
+                {
+                    "speaker": "Jeff",
+                    "text": "GNOMES OF THE FOREST,\nASSEMBLE!!!!!!!",
+                    "face": "jeff_screaming"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "Yes! This is going\nto work!",
+                    "face": "dipper_hopeful"
+                }
+            ]
         },
+
         {
-            "speaker": "Jeff",
-            "text": "Mabel! My queen! You've\nreturned to us!",
-            "face": "jeff_smug"
+            "id": "fight_prep_shack",
+            "lines": [
+                {
+                    "speaker": "Dipper",
+                    "text": "Grunkle Stan!",
+                    "face": "dipper_hopeful"
+                },
+                {
+                    "speaker": "Grunkle Stan",
+                    "text": "What is it? I was just\nplanning a new scam...",
+                    "face": "stan_stern"
+                },
+                {
+                    "speaker": "Grunkle Stan",
+                    "text": "Wait, you brought HIM again?\nHe didn't buy anything!",
+                    "face": "stan_angry"
+                },
+                {
+                    "speaker": "Grunkle Stan",
+                    "text": "But you DID bring\na new one!",
+                    "face": "stan_stern"
+                },
+                {
+                    "speaker": "Grunkle Stan",
+                    "text": "Welcome! Buy these mystery\nrocks! Only $50 per piece!",
+                    "face": "stan_salesman"
+                },
+                {
+                    "speaker": "Jeff",
+                    "text": "Ooooh! Mystery rocks!",
+                    "face": "jeff_surprised"
+                },
+                {
+                    "speaker": "Mabel",
+                    "text": "Grunkle Stan, we need\nyou to fight with us\nagainst Gideon.",
+                    "face": "mabel_serious"
+                },
+                {
+                    "speaker": "Grunkle Stan",
+                    "text": "Is that brat out of jail?\nHe ruined the Mystery Shack!",
+                    "face": "stan_angry"
+                },
+                {
+                    "speaker": "Grunkle Stan",
+                    "text": "Let's roll!",
+                    "face": "stan_angry"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "WAIT!",
+                    "face": "dipper_realizing"
+                },
+                {
+                    "speaker": "Soos",
+                    "text": "What is it dude?",
+                    "face": "soos_nervous"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "We don't know where\nGideon is! He could\nbe anywhere!",
+                    "face": "dipper_scared"
+                },
+                {
+                    "speaker": "Soos",
+                    "text": "A wise man once told me:\n'The world is big, but\nGeometry Falls isn't.'",
+                    "face": "soos_wise"
+                },
+                {
+                    "speaker": "Soos",
+                    "text": "He can't be far!\nGnome-guy! Where are\nyou getting the levels?",
+                    "face": "soos_confident"
+                },
+                {
+                    "speaker": "Jeff",
+                    "text": "From his GD account:\nGideonGleeful",
+                    "face": "jeff_normal"
+                },
+                {
+                    "speaker": "Mabel",
+                    "text": "Hey! %username!\nGo find that account!",
+                    "face": "mabel_screaming"
+                }
+            ]
         },
+
         {
-            "speaker": "Mabel",
-            "text": "Ugh, Jeff? Is this\nyour basement?!",
-            "face": "mabel_disgusted"
-        },
-        {
-            "speaker": "Jeff",
-            "text": "We put that monster there\nto find a brave new queen.\nAnd you defeated it!",
-            "face": "jeff_normal"
-        },
-        {
-            "speaker": "Jeff",
-            "text": "The offer is still\non the table, Mabel.\nWe have a leaf-throne!",
-            "face": "jeff_smug"
-        },
-        {
-            "speaker": "Mabel",
-            "text": "Hard pass, Jeff.\nI'm still washing the\ngnome-burp out of my hair.",
-            "face": "mabel_done_with_this"
-        },
-        {
-            "speaker": "Dipper",
-            "text": "Wait, did you gnomes\ncreate that challenge level?",
-            "face": "dipper_confused"
-        },
-        {
-            "speaker": "Jeff",
-            "text": "Oh, heavens no. We're gnomes,\nnot creators.\nWe stole it from Gideon.",
-            "face": "jeff_normal"
-        },
-        {
-            "speaker": "Dipper",
-            "text": "Gideon Gleeful?! I knew\nthat level felt... evil.\nAnd poorly balanced.",
-            "face": "dipper_annoyed"
-        },
-        {
-            "speaker": "Jeff",
-            "text": "I heard you can beat him by completing all his levels,\nbut you can't just search for the levels...",
-            "face": "jeff_normal"
-        },
-        {
-            "speaker": "Jeff",
-            "text": "But we stole some of them!\nI can give them to you.",
-            "face": "jeff_normal"
-        },
-        {
-            "speaker": "Dipper",
-            "text": "The Journal says if we\nbeat all his levels, we\ncan finally stop him.",
-            "face": "dipper_determined"
-        },
-        {
-            "speaker": "Soos",
-            "text": "I'm in, dawg. Gideon's\nhair is too big to be trusted.",
-            "face": "soos_serious"
-        },
-        {
-            "speaker": "Mabel",
-            "text": "Let's go take him down!",
-            "face": "mabel_excited"
-        },
-        {
-            "speaker": "Jeff",
-            "text": "Before you go, you need\ntraining. Fight our\nstrongest warrior!",
-            "face": "jeff_normal"
-        },
-        {
-            "speaker": "Schmebulock",
-            "text": "SCHMEBULOCK!!",
-            "face": "schmebulock"
-        },
-        {
-            "speaker": "Jeff",
-            "text": "Okay, thats maybe not that good of an idea...",
-            "face": "jeff_smug"
-        },
-        {
-            "speaker": "Jeff",
-            "text": "Here is the level\nI hope you can beat it",
-            "face": "jeff_normal"
+            "id": "account_enter_gideon",
+            "lines": [
+                {
+                    "speaker": "Dipper",
+                    "text": "Ah! We are here!",
+                    "face": "dipper_happy_1"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "I thought it would be\na bit harder to get here...",
+                    "face": "dipper_confused"
+                },
+                {
+                    "speaker": "Mabel",
+                    "text": "Hey, it's not like\nanything bad is\ngoing to happen!",
+                    "face": "mabel_hopeful"
+                },
+                {
+                    "speaker": "Mabel",
+                    "text": "Because we have a\nGLITTER CANNON!",
+                    "face": "mabel_silly"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "Mabel, this is serious.",
+                    "face": "dipper_flat"
+                },
+                {
+                    "speaker": "Jeff",
+                    "text": "Yeah! Gideon\nmust be stopped!",
+                    "face": "jeff_screaming"
+                },
+                {
+                    "speaker": "Soos",
+                    "text": "Watch out for traps!",
+                    "face": "soos_wise"
+                },
+                {
+                    "speaker": "Grunkle Stan",
+                    "text": "You know, my mystery rocks\nwould be perfect right now!",
+                    "face": "stan_greedy"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "FOCUS!",
+                    "face": "dipper_annoyed"
+                },
+                {
+                    "speaker": "Soos",
+                    "text": "GD REFERENCE!!!",
+                    "face": "soos_cool"
+                },
+                {
+                    "speaker": "Dipper",
+                    "text": "Let's go to his levels!\nThe Journal can help!",
+                    "face": "dipper_thinking"
+                }
+            ]
         }
-    ]
-},
-        {
-    "id": "fight_prep_basement",
-    "lines": [
-        {
-            "speaker": "Dipper",
-            "text": "Yes! Good job %username! you beat the level!",
-            "face": "dipper_happy_1"
-        },
-        {
-            "speaker": "Jeff",
-            "text": "Woah! That was faster than i thought!",
-            "face": "jeff_surprised"
-        },
-        {
-            "speaker": "Jeff",
-            "text": "Maybe i should get harder levels...",
-            "face": "jeff_smug"
-        },
-        {
-            "speaker": "Soos",
-            "text": "You did it!",
-            "face": "soos_celebrating"
-        },
-        {
-            "speaker": "Soos",
-            "text": "But i didn't feel very safe with that spike-ball...",
-            "face": "soos_nervous"
-        },
-        {
-            "speaker": "Jeff",
-            "text": "Yeah, Gideon doen't use the cutest objects in his levels. I learned that in expierience!",
-            "face": "jeff_normal"
-        },
-        {
-            "speaker": "Mabel",
-            "text": "Lets go back to the shack! We have to fight Gideon.",
-            "face": "mabel_serious"
-        },
-        {
-            "speaker": "Jeff",
-            "text": "Wait! I also have some things to say to Gideon!",
-            "face": "jeff_smug"
-        },
-        {
-            "speaker": "Jeff",
-            "text": "GNOMES OF THE FOREST, ASEMBLE!!!!!!!",
-            "face": "jeff_screaming"
-        },
-        {
-            "speaker": "Dipper",
-            "text": "Yes! This is going to work!",
-            "face": "dipper_hopeful"
-        }
-    ]
-}
-,
-        {
-    "id": "fight_prep_shack",
-    "lines": [
-        {
-            "speaker": "Dipper",
-            "text": "Grunkle Stan!",
-            "face": "dipper_hopeful"
-        },
-        {
-            "speaker": "Grunkle Stan",
-            "text": "What is it? I was just making a new scam...",
-            "face": "stan_stern"
-        },
-        {
-            "speaker": "Grunkle Stan",
-            "text": "Wait you brougt him again? He didn't buy anything!",
-            "face": "stan_angry"
-        },
-        {
-            "speaker": "Grunkle Stan",
-            "text": "But you did brougt a new one!",
-            "face": "stan_stern"
-        },
-        {
-            "speaker": "Grunkle Stan",
-            "text": "Welcome to a world of mystery! Here! buy these mystery rocks! Only 50 dollars per piece!",
-            "face": "stan_salesman"
-        },
-        {
-            "speaker": "Jeff",
-            "text": "Ooooh! Mystery rocks!",
-            "face": "jeff_surprised"
-        },
-        {
-            "speaker": "Mabel",
-            "text": "Grunkle Stan, we need you to fight with Gideon.",
-            "face": "mabel_serious"
-        },
-        {
-            "speaker": "Grunkle Stan",
-            "text": "Is that brat out of jail? He ruined the mystery shack!",
-            "face": "stan_angry"
-        },
-        {
-            "speaker": "Grunkle Stan",
-            "text": "Lets roll!",
-            "face": "stan_angry"
-        },
-        {
-            "speaker": "Dipper",
-            "text": "WAIT!",
-            "face": "dipper_realizing"
-        },
-        {
-            "speaker": "Soos",
-            "text": "What is it dude?",
-            "face": "soos_nervous"
-        },
-        {
-            "speaker": "Dipper",
-            "text": "We don't know where gideon is at! he could be anywhere!",
-            "face": "dipper_scared"
-        },
-        
-        {
-            "speaker": "Soos",
-            "text": "A wise man once told me 'The world is big, but Geomerty falls isn't'",
-            "face": "soos_wise"
-        },
-        
-        {
-            "speaker": "Soos",
-            "text": "He can't be far! Gnome-guy! Where are you getting the levels?",
-            "face": "soos_confident"
-        },
-        {
-            "speaker": "Jeff",
-            "text": "From his account, GideonGleeful",
-            "face": "jeff_normal"
-        },
-        {
-            "speaker": "Mabel",
-            "text": "Hey! %username! go to that account!",
-            "face": "mabel_screaming"
-        }
-    ]
-},
-        {
-    "id": "Account_enter_gideon",
-    "lines": [
-        {
-            "speaker": "Dipper",
-            "text": "Ah! we are here!",
-            "face": "dipper_happy_1"
-        },
-        {
-            "speaker": "Dipper",
-            "text": "I tought it would be a bit harder to get here...",
-            "face": "dipper_confused"
-        },
-        {
-            "speaker": "Mabel",
-            "text": "Hey, it's not like anything is going to happen!",
-            "face": "mabel_hopeful"
-        },
-        {
-            "speaker": "Mabel",
-            "text": "Because we have a GLITTER CANON!",
-            "face": "mabel_silly"
-        },
-        {
-            "speaker": "Dipper",
-            "text": "Mabel, this is serious",
-            "face": "dipper_flat"
-        },
-        {
-            "speaker": "Jeff",
-            "text": "Yeah! Gideon should be stoppen",
-            "face": "jeff_screaming"
-        },
-        {
-            "speaker": "Soos",
-            "text": "Watch out for traps!",
-            "face": "soos_wise"
-        },
-        {
-            "speaker": "Grunkle Stan",
-            "text": "You know, my mystery rocks would be perfect to use now!",
-            "face": "stan_angry"
-        },
-        {
-            "speaker": "Dipper",
-            "text": "FOCUS!",
-            "face": "dipper_annoyed"
-        },
-        {
-            "speaker": "Dipper",
-            "text": "Lets go to the levels! The journal can maybe help!",
-            "face": "dipper_thinking"
-        }
-    ]
-}
 
     ]
 }
